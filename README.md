@@ -17,7 +17,7 @@ This is the repository for Rima Dagher's personal portfolio website, built using
 
 ## Demo
 
-You can view the live portfolio here: [Rima Dagher's Portfolio](#your-portfolio-live-url)
+You can view the live portfolio here: [Rima Dagher's Portfolio](https://my-portfolio-ox4cc48x1-ridagher.vercel.app/)
 
 ## Features
 
