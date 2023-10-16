@@ -11,5 +11,5 @@ export const GlobalStyles = createGlobalStyle`
   }
   // Other global styles or resets can go here.
 
-  
+
 `;

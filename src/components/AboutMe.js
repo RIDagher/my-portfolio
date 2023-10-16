@@ -11,7 +11,6 @@ const AboutMe = () => {
 
       <Description>
         <p>
-          {' '}
           I am a passionate and dedicated web developer based in Montreal,
           Canada. With a relentless pursuit of knowledge, I am always looking
           for the next challenge and opportunity to learn and grow. My mission
