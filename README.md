@@ -2,18 +2,7 @@
 
 ![Portfolio Screenshot](screenshot.png)
 
-This is the repository for Rima Dagher's personal portfolio website, built using React. The portfolio showcases Rima's skills, projects, and provides a way to get in touch.
-
-## Table of Contents
-
-- [Demo](#demo)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
+This is the repository for My personal portfolio website, built using React. The portfolio showcases My skills, projects, and provides a way to get in touch.
 
 ## Demo
 
