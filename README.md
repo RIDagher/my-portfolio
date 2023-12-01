@@ -10,9 +10,9 @@ You can view the live portfolio here: [Rima Dagher's Portfolio](https://my-portf
 
 ## Features
 
-- Home page introducing Rima.
-- About Me section with a brief description and list of technologies Rima knows.
-- Projects section displaying Rima's projects with details.
+- Home page introducing Me.
+- About Me section with a brief description and list of technologies I know.
+- Projects section displaying My projects with details.
 - Contact Me section with a contact form.
 
 ## Technologies Used
@@ -20,6 +20,7 @@ You can view the live portfolio here: [Rima Dagher's Portfolio](https://my-portf
 - React
 - React Router
 - Styled Components
+- Context
 
 ## Installation
 
