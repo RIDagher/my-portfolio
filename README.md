@@ -6,7 +6,7 @@ This is the repository for My personal portfolio website, built using React. The
 
 ## Demo
 
-You can view the live portfolio here: [Rima Dagher's Portfolio](https://my-portfolio-ox4cc48x1-ridagher.vercel.app/)
+You can view the live portfolio here: [Rima Dagher's Portfolio](https://my-portfolio-ridagher.vercel.app/)
 
 ## Features
 
