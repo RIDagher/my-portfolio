@@ -3,27 +3,34 @@ import styled from 'styled-components';
 
 const projects = [
   {
-    title: 'TENNIS MATCHUP',
+    title: 'TENNIS MATCHUP - FINAL PROJECT',
     image: '/assets/tennisgif.gif',
     description:
-      'Inspired by the classic hang im! game, we utilize React propertize, in order to get the database and make different jsx componants in react. The user has up to 10 tries to get the word.',
+      'Tennis Matchup App is a full-stack application designed to connect tennis enthusiasts. It enables users to discover tennis courts, schedule matches, and connect with other players. The app features user authentication, profile management, and an interactive platform for organizing and participating in tennis matches.',
     github: 'https://github.com/RIDagher/TennisMatchup-project',
     link: 'http://example.com/project-one',
   },
+
   {
-    title: 'Cookie generator game coming through!',
-    image: '/assets/project2.png',
-    description:
-      'Cookie generator game coming through! with the combination of CSS HTML and react, I managed to make this game that generator cookies per second, and in order to increase your CPS, you would need to purchase the items! The goal of this game is to get as many cookies as possible.',
+    title: 'PROJECT HOLDER',
+    image: '/assets/portfolio-bckg4.avif',
+    description: 'TO BE DISPALYED',
     github: 'http://github.com/your-repo/project-one',
     link: 'http://example.com/project-one',
   },
   {
-    title: 'Cookie generator game coming through!',
-    image: '/assets/project2.png',
+    title: 'PROJECT HOLDER',
+    image: '/assets/portfolio-bckg4.avif',
+    description: 'TO BE DISPALYED',
+    github: 'https://github.com/RIDagher/my-version-e-commerce-project',
+    link: 'http://example.com/project-one',
+  },
+  {
+    title: 'E-COMMERCE - GROUP PROJECT',
+    image: '/assets/e-commerce.gif',
     description:
-      'Cookie generator game coming through! with the combination of CSS HTML and react, I managed to make this game that generator cookies per second, and in order to increase your CPS, you would need to purchase the items! The goal of this game is to get as many cookies as possible.',
-    github: 'http://github.com/your-repo/project-one',
+      'A collaborative full-stack project focused on wearable technology e-commerce. Features include product browsing, cart functionality, and user checkout. Built with React, node.Js, MongoDB.',
+    github: 'https://github.com/RIDagher/my-version-e-commerce-project',
     link: 'http://example.com/project-one',
   },
 ];
@@ -103,6 +110,7 @@ const ProjectGrid = styled.div`
 
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
+  border-radius: 3px;
 
   // Responsive grid adjustment
   @media (max-width: 1200px) {
@@ -116,6 +124,7 @@ const ProjectGrid = styled.div`
 
 const ProjectImg = styled.img`
   width: 70%;
+  border-radius: 3px;
 
   transition: transform 0.3s ease; // Added smooth transition
 
@@ -130,7 +139,7 @@ const ProjectInfo = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -140,11 +149,13 @@ const ProjectInfo = styled.div`
   opacity: 0;
   transform: translateY(100%);
   transition: all 0.3s;
+  font-size: 18px;
 `;
 
 const ProjectCard = styled.div`
   position: relative;
   overflow: hidden;
+  border-radius: 3px;
   &:hover ${ProjectInfo} {
     opacity: 1;
     transform: translateY(0);
@@ -169,7 +180,6 @@ const ProjectLink = styled.a`
 const LinkGroup = styled.div`
   display: flex;
   gap: 10px;
-  margin-top: 20px;
 `;
 
 const GithubLink = styled(ProjectLink)`

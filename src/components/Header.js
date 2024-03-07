@@ -57,7 +57,7 @@ const Header = () => {
         </MiddleSection>
       )}
       <BottomSection>
-        <StyledButton onClick={toggleTheme}>Theme</StyledButton>
+        <StyledButton onClick={toggleTheme}>SWITCH THEME</StyledButton>
         <SocialList>
           <SocialListItem>
             <SocialButton
@@ -205,6 +205,7 @@ const StyledLink = styled(Link)`
   width: 100%;
   text-decoration: none;
   color: #fff;
+  transition: color 0.1s ease-in-out;
 
   &:hover {
     color: #1dc997;
@@ -232,6 +233,7 @@ const SocialButton = styled.a`
   display: flex;
   flex-direction: row;
   color: #9eb1bc;
+  transition: background-color 0.3s ease-in-out;
 
   &:hover {
     color: #1dc997; // Adjust as needed
@@ -263,6 +265,11 @@ const StyledButton = styled.button`
   padding: 10px 20px;
   border: none;
   cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #1dc997;
+  }
 
   // Add more styles as needed
 
