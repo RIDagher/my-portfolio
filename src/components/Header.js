@@ -34,7 +34,7 @@ const Header = () => {
         <StyledLink to="/">
           <div>
             <ProfilePicture src="/assets/IMG_3094.jpg" />
-            <Heading>Rima Dagher</Heading>
+            <Heading>RIMA DAGHER</Heading>
           </div>
         </StyledLink>
       </TopSection>
@@ -42,22 +42,22 @@ const Header = () => {
         <MiddleSection>
           <NavList>
             <NavItem>
-              <StyledLink to="/">Home</StyledLink>
+              <StyledLink to="/">HOME</StyledLink>
             </NavItem>
             <NavItem>
-              <StyledLink to="/aboutme">About Me</StyledLink>
+              <StyledLink to="/aboutme">ABOUT ME</StyledLink>
             </NavItem>
             <NavItem>
-              <StyledLink to="/projects">Projects</StyledLink>
+              <StyledLink to="/projects">PROJECTS</StyledLink>
             </NavItem>
             <NavItem>
-              <StyledLink to="/contactme">Contact Me</StyledLink>
+              <StyledLink to="/contactme">CONTACT ME</StyledLink>
             </NavItem>
           </NavList>
         </MiddleSection>
       )}
       <BottomSection>
-        <StyledButton onClick={toggleTheme}>Toggle Theme</StyledButton>
+        <StyledButton onClick={toggleTheme}>Theme</StyledButton>
         <SocialList>
           <SocialListItem>
             <SocialButton
@@ -142,9 +142,9 @@ const TopSection = styled.div`
   }
 `;
 const ProfilePicture = styled.img`
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
+  width: 80%;
+
+  border-radius: 70%;
   object-fit: cover;
   border: 6px solid #343a40;
 

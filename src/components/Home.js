@@ -9,7 +9,7 @@ const Home = () => {
       <Cover />
       <Content>
         <Title>Welcome</Title>
-        <Subtitle>I'm a Web Developer.</Subtitle>
+        <Subtitle>I'm a Full-Stack Web Developer.</Subtitle>
         <Description>based in Montreal, Canada</Description>
         <StyledLink to="/contactme">Hire Me</StyledLink>
       </Content>
@@ -21,7 +21,7 @@ const HomeContainer = styled.div`
   position: relative;
   width: calc(100% - 260px);
   height: 100vh;
-  background: url('/assets/dev-bckgrd3.jpg') no-repeat center center fixed;
+  background: url('/assets/portfolio-bckg6.jpg') no-repeat center center fixed;
   background-size: cover;
   margin-left: 260px;
   @media (max-width: 768px) {
@@ -37,7 +37,7 @@ const Cover = styled.div`
   bottom: 0;
   left: 0;
 
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
 `;
 
 const Content = styled.div`

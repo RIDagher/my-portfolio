@@ -12,13 +12,13 @@ import ContactMe from './components/ContactMe';
 import { ThemeContext } from './context/ThemeContext';
 
 const lightTheme = {
-  background: '#fff',
+  background: '#F9F9F9',
   color: '#000',
 };
 
 const darkTheme = {
   background: '#212529',
-  color: '#fff',
+  color: '#ccc',
 };
 
 const App = () => {

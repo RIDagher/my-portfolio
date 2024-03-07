@@ -3,10 +3,18 @@ import styled from 'styled-components';
 
 const projects = [
   {
-    title: 'Hang im! word game',
-    image: '/assets/project1.png',
+    title: 'TENNIS MATCHUP',
+    image: '/assets/tennisgif.gif',
     description:
       'Inspired by the classic hang im! game, we utilize React propertize, in order to get the database and make different jsx componants in react. The user has up to 10 tries to get the word.',
+    github: 'https://github.com/RIDagher/TennisMatchup-project',
+    link: 'http://example.com/project-one',
+  },
+  {
+    title: 'Cookie generator game coming through!',
+    image: '/assets/project2.png',
+    description:
+      'Cookie generator game coming through! with the combination of CSS HTML and react, I managed to make this game that generator cookies per second, and in order to increase your CPS, you would need to purchase the items! The goal of this game is to get as many cookies as possible.',
     github: 'http://github.com/your-repo/project-one',
     link: 'http://example.com/project-one',
   },
@@ -91,9 +99,10 @@ const SubHeading = styled.h2`
 
 const ProjectGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+
+  grid-template-columns: repeat(2, 1fr);
   gap: 30px;
-  margin-top: 50px;
 
   // Responsive grid adjustment
   @media (max-width: 1200px) {
@@ -106,7 +115,7 @@ const ProjectGrid = styled.div`
 `;
 
 const ProjectImg = styled.img`
-  width: 100%;
+  width: 70%;
 
   transition: transform 0.3s ease; // Added smooth transition
 
