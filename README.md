@@ -1,6 +1,6 @@
 # Rima Dagher's React Portfolio
 
-![Portfolio Screenshot](public/assets/Screenshot%20.png)
+![Portfolio Screenshot](public/assets/portfolio-screenshot.png)
 
 This is the repository for My personal portfolio website, built using React. The portfolio showcases My skills, projects, and provides a way to get in touch.
 

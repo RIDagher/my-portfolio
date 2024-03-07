@@ -8,8 +8,8 @@ const Home = () => {
     <HomeContainer>
       <Cover />
       <Content>
-        <Title>Welcome</Title>
-        <Subtitle>I'm a Full-Stack Web Developer.</Subtitle>
+        <Title>Welcome to My Portfolio</Title>
+        <Subtitle>I'm Rima, a Full-Stack Web Developer.</Subtitle>
         <Description>based in Montreal, Canada</Description>
         <StyledLink to="/contactme">Hire Me</StyledLink>
       </Content>
@@ -50,6 +50,8 @@ const Content = styled.div`
 
 const Title = styled.h1`
   animation: fadeIn 3s;
+  font-size: 36px;
+  font-weight: bold;
 `;
 
 const typing = keyframes`
