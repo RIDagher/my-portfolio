@@ -76,7 +76,7 @@ const Projects = () => {
 const ProjectContainer = styled.div`
   position: relative;
   width: calc(100% - 260px);
-  height: 100vh;
+  height: 100%;
   margin-left: 260px;
   padding: 20px;
 
@@ -150,6 +150,16 @@ const ProjectInfo = styled.div`
   transform: translateY(100%);
   transition: all 0.3s;
   font-size: 18px;
+
+  @media (max-width: 1024px) {
+    font-size: 12px; // Adjust font size for tablets
+    padding: 0px; // Adjust padding for a bit more space
+  }
+
+  @media (max-width: 768px) {
+    font-size: 12px; // Smaller text on mobile
+    padding: 10px; // Less padding on mobile
+  }
 `;
 
 const ProjectCard = styled.div`
